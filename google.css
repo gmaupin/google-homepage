@@ -111,26 +111,27 @@ button:hover {
     box-shadow: 0 0 10px 0 gainsboro;
 }
 
-footer {
-    background-color: #f2f2f2;
+footer{
+    background-color: #eeeeee;
+    padding: 5px;
     position: fixed;
     bottom: 0;
-    width: 100vm;
+    width: 100%;
 }
+
+
 #footer-left {
     display: flex;
-    justify-content: flex-start;    /* flex-start is the default, aligns items at the beginning of the container. */
-    padding-left: 20px; /* There is a default padding of about 40px from the user agent stylesheet. */
-    align-items: center;
-
+    
 }
 
 #footer-right {
     display: flex;
-    justify-content: flex-end;  /* Aligns the flex items at the end of the container. */
-    margin-right: 20px;
-    align-items: center;
+    
+    
 }
+
+
 
 @media (max-width: 630px) {
     #footer-nav {
